@@ -20,7 +20,9 @@ router.post("/Loginchemist",Loginchemist);
 router.get("/showAll",showAll)
 router.get("/showchemist",Allchemist)
 router.get("/showequip",showAllequip)
-
+router.get("/",(req,res)=>{
+res.send("hello")
+})
 router.post("/showuser",showUser)
 router.post("/edit",edit)
 router.post("/decline",decline)
