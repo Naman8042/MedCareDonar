@@ -1,0 +1,84 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  .heading {
+    /* border: 1px solid black; */
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    min-height: 10px;
+    width: 250px;
+    /* margin: 75px auto; */
+  }
+  
+  .headingtext {
+    /* border: 1px solid black; */
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    /* margin: 20px auto; */
+  
+    /* text-align: center; */
+  }
+  .container {
+    min-height: 700px;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+  }
+  .left {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 700px;
+    margin: 10px;
+    float: left;
+    background-image: url(https://t4.ftcdn.net/jpg/01/90/74/63/360_F_190746317_qjZikoohn97kiJrWpJZJLHilBXKVWTAD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .right {
+    /* border: 1px solid black; */
+    width: 65%;
+    height: 700px;
+    margin: 10px;
+    float: left;
+  }
+  
+  .clear {
+    display: block;
+    content: none;
+    clear: both;
+  }
+  
+  .row1 {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .span {
+    width: 50%;
+    /* border: 1px solid red; */
+  }
+  
+  .inputtext {
+    margin: 10px;
+    font-weight: 600;
+  }
+  .input {
+    width: 90%;
+    height: 40%;
+    margin-left: 10px;
+  }
+  

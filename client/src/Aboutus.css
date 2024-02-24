@@ -1,0 +1,139 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .html {
+    box-sizing: border-box;
+  }
+  .about {
+    text-align: center;
+    font-size: 20vh;
+    margin: 10px 0px 10px;
+  }
+  .team {
+    text-align: center;
+    font-size: 15vh;
+    margin: -89px 0px 10px;
+    color: white;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .box {
+    background-color: #4752ce;
+    padding: 104px;
+  }
+  .row1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #4752ce;
+    height: 75vh;
+  }
+  
+  .column {
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    height: 100px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: white;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .center {
+    text-align: center;
+  }
+  
+  .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 99vw;
+    margin: auto;
+    color: black;
+    padding: 90px;
+    background-color: grey;
+  }
+  .secimg {
+    position: relative;
+  }
+  .secimg img {
+    width: 402px;
+    z-index: 10;
+    position: relative;
+  }
+  
+  section.first > div {
+    display: flex;
+    flex-direction: column;
+  }
+  section.first > div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  section.first > div :nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  section.first > div :nth-child(4) {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .separation {
+    height: 11px;
+    background-color: white;
+  }
+  
